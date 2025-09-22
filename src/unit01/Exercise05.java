@@ -14,6 +14,13 @@ public class Exercise05 {
 		double longitudCircunferencia, areaCircunferencia, radio;
 		System.out.println("Introduce el radio");
 		radio=reader.nextDouble();
+		longitudCircunferencia = 2 * Math.PI * radio;
+		longitudCircunferencia=reader.nextDouble();
+		areaCircunferencia = Math.PI * radio * 2;
+		areaCircunferencia=reader.nextDouble();
+		System.out.println("La longitud de la circunferencia es: "+longitudCircunferencia);
+		System.out.println("La longitud de la circunferencia es: "+areaCircunferencia);
+		
 		
 		reader.close();
 
