@@ -7,6 +7,7 @@ public class Exercise01 {
  * y a continuación lo muestre.
  */
 	public static void main(String[] args) {
+		// Creo el scanner
 		Scanner reader = new Scanner(System.in);
 		// Declaro variables
 		int numero;
@@ -14,9 +15,11 @@ public class Exercise01 {
 		System.out.println("Introduzca un número entero");
 		// Leo de la consola
 		numero = reader.nextInt();
-		// Imprimo el numero
+		// Imprimo el mensaje final
 		System.out.println("El número introducido es: "+numero);
 		
+		// Cierro scanner
+		reader.close();
 	}
 
 }
