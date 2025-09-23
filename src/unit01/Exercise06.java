@@ -1,6 +1,11 @@
 package unit01;
 import java.util.Scanner;
 public class Exercise06 {
+	/*ENUNCIADO:
+	 * Escribir un programa que le pida dos números al usuario. A continuación,
+	 * debe mostrar la suma, la resta, la multiplicación y la división de ambos
+	 * números. Debe mostrarse el resultado de cada operación en una línea distinta.
+	 */
 	public static void main(String[] args) {
 		// Creo el Scanner el cual le pongo el nombe de reader
 		Scanner reader = new Scanner(System.in);
