@@ -9,6 +9,12 @@ public class Exercise10 {
 	 * Escribir un programa que pida un número al usuario e indique mediante un
 	 * literal booleano (true o false) si el número es par.
 	 */
+	/*
+		 * Pasos que hará mi programa:
+		 * 1. Pedir un número al usuario (imprimir mensaje y esperar el dato)
+		 * 2. Compruebo si es par
+		 * 3. Imprimo mensaje
+	 */
 		// Creo el Scanner
 		Scanner reader = new Scanner(System.in);
 		// Declaro variable número
