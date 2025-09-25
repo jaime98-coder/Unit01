@@ -3,7 +3,10 @@ package unit01;
 import java.util.Scanner;
 
 public class Exercise07 {
-
+	/*ENUNCIADO:
+	 * Escribir un programa que le pida al usuario su nombre, dirección y teléfono.
+	 * Guarda cada dato en variables distintas. A continuación, muestra los datos de la siguiente forma:
+	 */
 	public static void main(String[] args) {
 		// Creo el Scanner
 		Scanner reader = new Scanner(System.in);
