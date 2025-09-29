@@ -21,6 +21,7 @@ public class Exercise02 {
 		 * valorASumar = (numEntero % 7)==0 ? 0 : 7-(numEntero % 7);
 		 * System.out.println("Tienes que sumarle "+valorASumar);
 		 */
+		
 		int numEntero;
 		int valorASumar;
 		int resto;
