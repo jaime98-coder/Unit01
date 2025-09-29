@@ -1,4 +1,4 @@
-package unit01;
+package part01;
 // Importo el Scanner
 import java.util.Scanner;
 public class Exercise05 {

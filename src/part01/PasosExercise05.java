@@ -1,4 +1,4 @@
-package unit01;
+package part01;
 
 public class PasosExercise05 {
 
