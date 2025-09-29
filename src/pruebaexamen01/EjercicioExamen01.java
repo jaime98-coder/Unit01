@@ -28,7 +28,7 @@ public class EjercicioExamen01 {
 		// Leo de la consola el num3 introducido por el usuario
 		num3 = reader.nextInt();
 		// Realizo la media de las 3 notas introducidas
-		promedio = (num1 + num2 + num3) / 3;
+		promedio = (double)(num1 + num2 + num3) / 3;
 		// Imprimo mensaje final indicando la media de las 3 notas con decimales
 		System.out.println("La media de tus notas es: " + promedio);
 		// Cierro Scanner
