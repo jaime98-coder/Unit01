@@ -30,7 +30,7 @@ public class Exercise10 {
 		siglo = año % 100 == 0 ? año / 100 : año / 100 + 1;
 		// Imprimo el mensaje final indicando a que siglo pertenece
 		System.out.println("El año introducido pertenece al siglo " + siglo);
-		// Ciero el Scanner
+		// Cierro el Scanner
 		reader.close();
 	}
 
