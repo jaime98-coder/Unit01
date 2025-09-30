@@ -30,8 +30,7 @@ public class Exercise02 {
 		resto=numEntero%7;
 		valorASumar=resto==0 ? 0 : 7-resto;
 		System.out.println("Tienes que sumarle "+valorASumar);
-		
-
+		reader.close();
 	}
 
 }
