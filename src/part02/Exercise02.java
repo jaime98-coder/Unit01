@@ -41,10 +41,7 @@ public class Exercise02 {
 		// Imprimo mensaje final indicando cuando tiene que sumarle al nº introducido para que sea múltiplo de 7
 		System.out.println("Tienes que sumarle "+valorASumar);
 		reader.close();
-<<<<<<< HEAD
-=======
 
->>>>>>> branch 'master' of https://github.com/jaime98-coder/Unit01.git
 	}
 
 }
