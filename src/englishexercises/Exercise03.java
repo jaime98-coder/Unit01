@@ -12,7 +12,7 @@ public class Exercise03 {
 		 */
 		// Declaring the variables 
 		double length;
-		double heigth;
+		double height;
 		double area;
 		double perimeter;
 		// Creating the Scanner
@@ -22,11 +22,11 @@ public class Exercise03 {
 		length = reader.nextDouble();
 		// Asking the user to introduce the heigth and reading the data introduced through the console
 		System.out.println("Introduce the heigth of the rectangle");
-		heigth = reader.nextDouble();
+		height = reader.nextDouble();
 		// Calculating the area of the rectangle
-		area = length * heigth;
+		area = length * height;
 		// Calculating the perimeter of the rectangle
-		perimeter = 2 * (length * heigth);
+		perimeter = 2 * (length * height);
 		// Printing the final message with the area of the rectangle
 		System.out.println("The area of the rectangle is " + area);
 		// Printing the final message with the perimeter of the rectangle
