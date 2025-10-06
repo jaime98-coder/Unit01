@@ -20,8 +20,9 @@ public class Exercise07 {
 		int numEntradasAdulto;
 		final double ENTRADA_INFANTIL = 15.50;
 		final double ENTRADA_ADULTO = 20;
+		final double LIMITE = 100;
 		// Ceclaro la variable con el descuento del 5% si llega a >= 100€
-		double descuento = 0.05;
+		final double DESCUENTO = 0.05;
 		// Declaro los importes totales antes y después del descuento del 5%
 		double importeTotal;
 		double importeAPagar;
@@ -36,7 +37,7 @@ public class Exercise07 {
 		// Calculo el importe total sin descuentos
 		importeTotal = (numEntradasInfantil*ENTRADA_INFANTIL)+(numEntradasAdulto*ENTRADA_ADULTO);
 		// Calculo el importe total con el descuento del 5% en caso de que se cumpla la ternaria
-		importeAPagar= importeTotal >= 100 ? importeTotal-(importeTotal*descuento) : importeTotal;
+		importeAPagar= importeTotal >= LIMITE ? importeTotal-(importeTotal*DESCUENTO) : importeTotal;
 		// Imprimo el mensaje final indiciando importe con descuento y sin descuento
 		System.out.println("Importe total sin descuento: "+importeTotal+" euros\n"+"Importe total con descuento: "+importeAPagar+" euros");
 		// Cierro el Scanner
